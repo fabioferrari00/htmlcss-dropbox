@@ -21,6 +21,12 @@ span {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+hr {
+  padding: 0px 20px;
+  width: 20px;
+  margin-top: 20px;
+}
+
 .font-roboto {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -30,6 +36,10 @@ span {
 }
 
 .border-bottom {
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.border-short {
   border-bottom: 1px solid rgb(193, 193, 193);
 }
 
@@ -47,7 +57,7 @@ span {
   margin: 0 auto;
 }
 
-.price {
+.text-bold {
   font-weight: bold;
 }
 
