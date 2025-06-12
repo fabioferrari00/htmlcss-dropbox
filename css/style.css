@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 15px 15px;
+}
+
+header img {
+  height: 20px;
+}
+
+.container-lg {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: rgb(1, 115, 255);
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-50 {
+  width: 50%;
+  border: 1px solid white;
+}
+
+.col-60 {
+  width: 60%;
+  height: 400px;
+}
+
+.col-40 {
+  width: 40%;
+  height: 400px;
+}
+
+.col-33 {
+  width: calc(100% / 3 - 40px / 3);
+  min-height: 600px;
+}
+
+.col-100 {
+  width: 100%;
+  min-height: 500px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+
+.py-50 {
+  padding: 50px 0;
+}
+
+.bg-gold {
+  background-color: gold;
+}
+
+.bg-gray {
+  background-color: rgb(193, 193, 193);
+}
+
+.bg-green {
+  background-color: green;
+}
+
+
+header ul {
+  list-style: none;
+  padding-left: 15px;
+  gap: 15px
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
