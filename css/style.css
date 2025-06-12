@@ -34,9 +34,13 @@ header img {
   gap: 20px;
 }
 
+.col-20 {
+  width: 20%;
+  height: 400px;
+}
+
 .col-50 {
   width: 50%;
-  border: 1px solid white;
 }
 
 .col-60 {
@@ -75,6 +79,10 @@ header img {
   text-align: right;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .py-20 {
   padding: 20px 0;
 }
@@ -95,6 +103,10 @@ header img {
   background-color: green;
 }
 
+.bg-jumbo {
+  background-color: #B4D0E6;
+}
+
 
 header ul {
   list-style: none;
@@ -105,4 +117,8 @@ header ul {
 header ul li a {
   text-decoration: none;
   color: black;
+}
+
+.container-lg .col-100 h1 {
+  text-align: center;
 }
