@@ -151,6 +151,10 @@ body {
   padding: 40px;
 }
 
+.p-30 {
+  padding: 30px;
+}
+
 .py-10 {
   padding: 10px 0;
 }
@@ -177,6 +181,14 @@ body {
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.gap-10 {
+  gap: 10px;
 }
 
 
@@ -215,6 +227,10 @@ header ul {
 
 .body-card .btn {
   width: 100%;
+}
+
+.body-card p {
+  max-width: 600px;
 }
 
 .partner img {
