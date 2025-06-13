@@ -21,11 +21,7 @@ span {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-hr {
-  width: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+
 
 .font-roboto {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -45,6 +41,12 @@ hr {
 
 .border-gray {
   border: 1px solid rgb(193, 193, 193);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .container-lg {
@@ -71,10 +73,7 @@ hr {
   color: white;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .col-30 {
   width: 30%;
@@ -124,8 +123,6 @@ hr {
 .flex-end {
   justify-content: flex-end;
 }
-
-
 
 .justify-space-between {
   justify-content: space-between;
@@ -183,16 +180,16 @@ hr {
   margin-bottom: 20px;
 }
 
-.gap-20 {
-  gap: 20px;
-}
-
 .bg-gold {
   background-color: gold;
 }
 
 .bg-gray {
   background-color: rgb(193, 193, 193);
+}
+
+.bg-black {
+  background-color: black;
 }
 
 .bg-green {
@@ -213,12 +210,41 @@ header ul {
   gap: 15px
 }
 
-.col-33 ul li {
+.body-card ul li {
   padding-top: 20px;
 }
 
-.col-60 img {
+.body-card hr {
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.partner img {
   height: 500px;
+}
+
+.partner ul li {
+  padding: 20px 0px;
+  list-style: none;
+}
+
+.partner ul li .btn {
+  background-color: transparent;
+  color: black;
+}
+
+.operation ul li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.operation ul li h3 {
+  font-size: 2rem;
+}
+
+.operation ul li img {
+  width: 100%;
 }
 
 header ul li a {
@@ -251,4 +277,27 @@ header ul li a:hover {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   font-size: 2.5rem;
+}
+
+.top-footer ul {
+  color: white;
+  padding-top: 50px;
+}
+
+.top-footer ul li {
+  padding-top: 20px;
+  list-style: none;
+}
+
+.top-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  color: white;
 }
