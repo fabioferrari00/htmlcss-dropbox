@@ -180,9 +180,6 @@ span {
   margin-bottom: 20px;
 }
 
-.bg-gold {
-  background-color: gold;
-}
 
 .bg-gray {
   background-color: rgb(193, 193, 193);
@@ -192,9 +189,6 @@ span {
   background-color: black;
 }
 
-.bg-green {
-  background-color: green;
-}
 
 .bg-jumbo {
   background-color: #B4D0E6;
@@ -218,6 +212,10 @@ header ul {
   width: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.body-card .btn {
+  width: 100%;
 }
 
 .partner img {
